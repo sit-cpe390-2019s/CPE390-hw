@@ -1,0 +1,48 @@
+# first, ignore all
+*
+
+#unignore all with extensions
+!*.*
+
+#unignore all directories
+!*/
+
+#unignore README and Makefiles and .gitignore just in case
+!README
+!Makefile
+!.gitignore
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+*~
